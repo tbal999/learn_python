@@ -2,7 +2,7 @@
 # Usage is python script inputfile outputfile.
 # i.e python script.py input.csv output.csv
 
-import pandas as pd #Import pandas - very powerful data maniuplation library
+import pandas as pd #Import pandas - very powerful data manipulation library
 import sys #sys is a package that has various system interfaces i.e working with arguments in this case
 import os.path #package that enables us to verify whether a file exists.
 
