@@ -9,7 +9,7 @@ They all have different methods that i can access to do lots of things that woul
 # Usage is python script inputfile outputfile.
 # i.e python script.py input.csv output.csv
 
-import pandas as pd #Import pandas - very powerful data manipulation library
+import pandas as pd #pandas - very powerful data manipulation library (called in the script as 'pd' - makes it easier to work with)
 import sys #sys is a package that has various system interfaces i.e working with arguments in this case
 import os.path #package that enables us to verify whether a file exists.
 
