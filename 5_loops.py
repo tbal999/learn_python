@@ -15,7 +15,7 @@ if __name__ == "__main__":
     x = 0
     while x < 10: #This is a while loop. It will loop as long as x is less than 10.
         print(x) #Print x
-        x += 1 #add 1 to x (this will break the loop)
+        x += 1 #add 1 to x (this will break the loop when x hits 9)
 
     #Now we'll use a for loop to iterate through a list.
 
