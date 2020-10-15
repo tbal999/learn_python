@@ -10,7 +10,7 @@ Learn what variables are, what local and global variables are.
 # Functions
 Learn what functions are, and how to use them with variables
 
-# Classes
+# Classes & Objects
 Learn what classes are, and how they encapsulate both functions and variables
 
 # Data structures
@@ -20,7 +20,8 @@ How do you store things and work with things easily? Data structures!
 Sometimes you want to do the same thing multiple times. Or a different thing every single time. Loops!
 
 # Recursion
-Sometimes you can't do a loop for something. Hello recursion!
+Sometimes you just need to do recursion. When? Whow knows.
 
 # Packages
-The true magic of python is packages! This is where it gets interesting.
+The true magic of python (and many other languages) is packages! 
+Standing on the shoulders of giants.
