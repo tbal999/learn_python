@@ -18,7 +18,7 @@ def addone():
     #and this is a global variable
     global cat #you declare a variable as global like this
     cat += " and this is the same cat!"
-    print(cat   )#This will print 'meow i am a cat... and this is the same cat!'   
+    print(cat)   #This will print 'meow i am a cat... and this is the same cat!'   
     #This is because we have already declared the cat variable on row 7, then we added 'i am a cat...' on row 51 in the entry point, and THEN called this function.
 
 if __name__ == "__main__": #Standard 'entry point' method for python. 
