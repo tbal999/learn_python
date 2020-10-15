@@ -4,7 +4,7 @@ teaching python &amp; examples
 This is my attempt at teaching the basics of programming through python.
 Contents:
 
--1 Variables
+#1 Variables#
 Learn what variables are, what local and global variables are.
 
 -2 Functions
