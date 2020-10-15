@@ -13,10 +13,6 @@ Bonus:
    
 """
 
-def highscore(file,row):
-   ###CODE HERE
-
-
 if __name__ == "__main__":
     #Begin!
-    highscore("challenge1.csv", 1)
+
