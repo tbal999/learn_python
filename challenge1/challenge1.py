@@ -3,9 +3,7 @@ Challenge 1
 
 1) Try importing the 'challenge1.csv' file into python (using pandas, or some other method)
 
-2) Grab the highest score for every single player.
-
-3) From that list of high scores, list the 1st, 2nd and 3rd highest scoring player.
+2) List the 1st, 2nd and 3rd highest scoring player.
 
 Bonus:
 
