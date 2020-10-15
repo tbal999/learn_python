@@ -1,9 +1,7 @@
 # teaching_python
-teaching python &amp; examples
-
 This is my attempt at teaching the basics of programming through python.
-Contents:
 
+Contents:
 # Variables
 Learn what variables are, what local and global variables are.
 
@@ -22,3 +20,6 @@ Sometimes you want to do the same thing multiple times. Or a different thing eve
 # Packages
 The true magic of python (and many other languages) is packages! 
 Standing on the shoulders of giants.
+
+# Challenges
+I will add these over time.
