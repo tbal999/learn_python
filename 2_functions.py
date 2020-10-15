@@ -59,6 +59,6 @@ if __name__ == "__main__": #entry point
 
     print(addTogether(5,5))
 
-    print(add5toboth(2,3)) #This will result in a tuple which is a type of data structure (we'll go into them more in 'data structures')
+    print(add5toboth(2,3)) #This will result in a tuple which is a type of data structure
 
     fibonacci(0, 1, 10, 7) #Calls the fibonacci function starting with the numbers 0 and 1, and will print 7 lines of 10 numbers each line.
