@@ -2,6 +2,9 @@
 Packages are ubiquitous in python, and they're essentially wrapped up bundles of code that you can import and use immediately.
 In this example, i've imported pandas, sys and os.path.
 They all have different methods that i can access to do lots of things that would generally be long-winded to code from scratch.
+Packages generally (should!) have documentation that lets you what you can do with them in detail.
+
+Below is an example of various packages being put to use togegether to fullfil a purpose that none of them probably could do alone.
 """
 
 # This little script will grab any csv file and remove all whitespace within it.
