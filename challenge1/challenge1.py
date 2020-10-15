@@ -13,17 +13,8 @@ Bonus:
    
 """
 
-import pandas as pd
-
 def highscore(file,row):
-    input = pd.read_csv(file)
-    input.sort_values(by=['PLAYER','HIGHSCORE'], ignore_index=True)
-    input['row'] = input.groupby(['PLAYER']).cumcount()+1
-    inter = input.loc[input['row'] == row]
-    output = inter.values.tolist()
-    output = sorted(output,key=lambda l:l[1], reverse=True)
-    for index, _ in enumerate(output):
-        print(f'{output[index][0]}, Score: {output[index][1]}')
+   ###CODE HERE
 
 
 if __name__ == "__main__":
