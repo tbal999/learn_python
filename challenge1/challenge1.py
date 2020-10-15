@@ -7,7 +7,7 @@ Challenge 1
 
 Bonus:
 
-4) Turn it into a function where you can pick which row you want to grab for each player i.e the highest score, the second highest, the third highest.
+3) Turn it into a function where you can pick which row you want to grab for each player i.e the highest score, the second highest, the third highest.
    
 """
 
