@@ -26,7 +26,8 @@ def add5toboth(a, b):
 
 
 """
-Below is a recursive function that calculates the fibonacci sequence.
+Below is a recursive function that calculates the fibonacci sequence. 
+We'll get into recursion later but just want to show you the power of functions.
 This sequence requires four inputs
 The first two numbers in the sequence are 0 and 1. (the first and second number)
 It also takes in two more inputs, max and epoch.
@@ -49,7 +50,7 @@ def fibonacci(prev, now, max, epoch):
     fibonacci(now, now+prev, max, epoch)    #Otherwise call the function again with new numbers.
 
 
-if __name__ == "__main__":
+if __name__ == "__main__": #entry point
     bark1()
 
     bark2("hound")
