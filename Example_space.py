@@ -1,4 +1,11 @@
+"""
+Packages are ubiquitous in python, and they're essentially wrapped up bundles of code that you can import and use immediately.
+In this example, i've imported pandas, sys and os.path.
+They all have different methods that i can access to do lots of things that would generally be long-winded to code from scratch.
+"""
+
 # This little script will grab any csv file and remove all whitespace within it.
+# You can run it with arguments.
 # Usage is python script inputfile outputfile.
 # i.e python script.py input.csv output.csv
 
