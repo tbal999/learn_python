@@ -26,6 +26,6 @@ if __name__ == "__main__": #Standard 'entry point' method for python.
         exit("usage: python " + sys.argv[0] + " inputfilename outputfilename") #Exit with printing of instructions on how to use this script.
     else: 
         if os.path.isfile(sys.argv[1]): #If this file exists
-            process(sys.argv[1], sys.argv[2]) #Invoke process function with arguments 1 and 2 (0 is the script itself!)
+            process(sys.argv[1], sys.argv[2]) #Invoke process function with arguments 1 and 2 (0 is the name of the script itself)
         else:
             print(sys.argv[1] + " does not exist.") #If file doesn't exist - tell them!
