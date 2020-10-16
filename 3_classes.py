@@ -6,7 +6,7 @@ Anything that can be defined clearly can be an object.
 For example, dogs and cats are animals.
 You could, in a limited sense, define an animal.
 
-For this basic example, I'm going to make an animal class.
+For this example, I'm going to make an animal class.
 When you create the animal, you need to type in a name for it, and a 'hunger' which is an integer.
 Depending on the hunger, it takes so many times to feed the animal before they are happy.
 Let's see how this works.
