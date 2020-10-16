@@ -26,7 +26,7 @@ class Animal: #This is the animal class
         if self.hunger < 0: #If hunger is below 0 
             self.hungry = False #Change the hungry variable to false.
 
-    def check(self): #Functions within classes are called 'methods'. They're like bolt-ons to a class which it has access to.
+    def check(self): #Functions within classes are called 'methods'. They're like bolt-on functions to a class which it has access to.
         if self.hungry:
             print(f'The {self.name} is still hungry!!!')
         else:
