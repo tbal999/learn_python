@@ -1,4 +1,4 @@
-# teaching_python
+# learn python
 This is my attempt at teaching (very hands-on) the basics of programming through python.
 
 I find a lot of tutorials drag on basic concepts, maybe for good reason, but why not just make it concise?
