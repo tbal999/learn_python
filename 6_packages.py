@@ -1,8 +1,13 @@
 """
-Packages are ubiquitous in python, and they're essentially wrapped up bundles of code that you can import and use immediately.
+Packages are ubiquitous in python (and every other language), and they're essentially wrapped up bundles of code that you can import and use immediately.
 In this example, i've imported pandas, sys and os.path.
 They all have different methods that i can access to do lots of things that would generally be long-winded to code from scratch.
-Packages generally (should!) have documentation that lets you what you can do with them in detail.
+Packages generally (should!) have documentation that lets you know what you can do with them in detail.
+
+They're INCREDIBLY useful, as without them you'd need to build everything yourself.
+Imagine building a car. But then you'd need to build the wheels, 
+forge the steel for the hubs, the screws, the bolts, refine your own petrol, make the rubber for the tyres
+etc etc you get the point. Use libraries!!!!
 
 Below is an example of various packages being put to use togegether to fullfil a purpose that none of them probably could do alone.
 """
@@ -15,6 +20,10 @@ Below is an example of various packages being put to use togegether to fullfil a
 import pandas as pd #pandas - very powerful data manipulation library (called in the script as 'pd' - makes it easier to work with)
 import sys #sys is a package that has various system interfaces i.e working with arguments in this case
 import os.path #package that enables us to verify whether a file exists.
+
+#Documentation for sys: https://docs.python.org/3/library/sys.html
+#Some documentation for pandas: https://pandas.pydata.org/pandas-docs/stable/user_guide/basics.html
+#Documentation for os.path: https://docs.python.org/3/library/os.path.html
 
 #process - this function takes in two variables 'inn' and 'out'.
 def process(inn, out):
