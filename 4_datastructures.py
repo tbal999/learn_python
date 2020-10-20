@@ -35,7 +35,7 @@ if __name__ == "__main__":
     #You can google more methods that lists can use
     # Or try this site: https://docs.python.org/3/tutorial/datastructures.html
     # You learned in the previous section that methods are bolt-on functions for a class.
-    # So that means that a list is an object, created by a list class. And the list object has the methods 'pop' and 'append' in it, alongside many others.
+    # So that means that a list is an object, possibly created by a list class? And the list object has the methods 'pop' and 'append' in it, alongside many others.
 
 
     """
