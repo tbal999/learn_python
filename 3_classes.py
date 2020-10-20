@@ -5,8 +5,8 @@ You build them from the ground up to do something.
 For example, dogs and cats are animals.
 You could, in a limited sense, define an animal. So you could create an animal object, so you could design a class to build animal objects.
 
-For this example, I'm going to make an animal class.
-When you create the animal, you need to type in a name for it, and a 'hunger' which is an integer.
+For this example, I'm going to make a very simple animal class that creates an animal object that has a name, and a 'hunger'.
+When you create the animal, you need to type in a name for it, and an integer for hunger.
 Depending on the hunger, it takes so many times to feed the animal before they are happy.
 Let's see how this works.
 """
