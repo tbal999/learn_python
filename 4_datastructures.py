@@ -62,7 +62,7 @@ if __name__ == "__main__":
 
 """
 Lists are used normally to manipulate data and work with it quickly i.e sort it. 
-You can interate through lists quickly to process many hundreds of thousands of rows of data.
+You can interate through lists quickly to process many thousands of rows of data.
 Dictionaries are used to store and retrieve data quickly. You can insert data at any index. 
 if you use a dictionary with a hash function, you get a hash table. I'll add hash tables here in future but if you want to know what they are 
 check out this: https://www.youtube.com/watch?v=shs0KM3wKv8
