@@ -12,7 +12,7 @@ There's a whole list of data structures here - https://realpython.com/python-dat
 
 """
 #These are GLOBAL variables.
-alist = [] #This is how you instantiate a 1 dimensional list. 
+alist = [] #This is how you instantiate a 1 dimensional list. You can 1 dimension, 2 dimensions, 3.... etc 
 adictionary = {} #This is a dictionary. We'll get to it soon.
 
 if __name__ == "__main__":
