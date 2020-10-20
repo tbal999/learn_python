@@ -1,10 +1,9 @@
 """
-Classes are a template to create an object.
+Classes are a template to create an object. An object is just a fancy term for a thing that can be defined clearly.
 You build them from the ground up to do something.
-Anything that can be defined clearly can be an object.
 
 For example, dogs and cats are animals.
-You could, in a limited sense, define an animal.
+You could, in a limited sense, define an animal. So you could create an animal object, so you could design a class to build animal objects.
 
 For this example, I'm going to make an animal class.
 When you create the animal, you need to type in a name for it, and a 'hunger' which is an integer.
