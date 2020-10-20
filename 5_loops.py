@@ -5,7 +5,7 @@ We are going to go through two loops in python - 'for' and 'while', as well as b
 Read the stuff in the main entry point first, or not?
 """
 
-#Recursive functions are functions that call themselves, usually in a controlled manner, to complete tasks where iteration is necessary.
+#Recursive functions are functions that call themselves, in a controlled manner (i.e not infinite), to complete tasks where iteration is necessary.
 def recursion(thelist, index):
     print(thelist[index]) #Here we are printing the item at list[index]
     index += 1 #Then we add 1 to index
