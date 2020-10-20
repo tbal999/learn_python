@@ -3,6 +3,8 @@ Functions are the bread and butter (imo) of coding. They allow you to package a 
 Whenever you are coding and you notice yourelf repeating a piece of code... that code can become a function.
 It's good practise to analyse your code whilst you are developing, always trying to break things up into functions as you go.
 
+There are first order functions & higher order functions. We're just going to discuss first order here.
+
 Functions can include input(s) and output(s). They can have neither. They can also have one or the other.
 Demonstrations:
 """
@@ -10,7 +12,7 @@ Demonstrations:
 def bark1(): #No input, just prints something
     print("The hound barked!")
 
-def bark2(dog): #Takes in input 'dog'.
+def bark2(dog): #Takes in input 'dog' which is a string.
     print(f'The {dog} barked!')
 
 def bark3(): #No input, and returns a string.
