@@ -6,6 +6,14 @@ It's good practise to analyse your code whilst you are developing, always trying
 There are first order functions & higher order functions. We're just going to discuss first order here.
 
 Functions can include input(s) and output(s). They can have neither. They can also have one or the other.
+
+Basically there can be 4 types functions, they are:
+
+Function with no arguments and no return value.
+Function with no arguments and a return value.
+Function with arguments and no return value.
+Function with arguments and a return value.
+
 Demonstrations:
 """
 
