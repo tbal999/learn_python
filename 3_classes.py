@@ -45,3 +45,8 @@ if __name__ == "__main__":
     
     cat.feed(30) #20 - 30 is negative.
     cat.check() #So the cat will not be hungry anymore.
+"""
+WHY BUILD CLASSES? WHAT'S THE POINT?
+They let you solve problems. That's it really.
+Much better answer is here: https://stackoverflow.com/questions/1993638/classes-whats-the-point
+"""
