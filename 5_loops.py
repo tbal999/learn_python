@@ -1,5 +1,5 @@
 """
-loops are powerful. They let you iterate through lots of things quickly, and are a key aspect of a lot of automation.
+loops are powerful. They let you iterate through lots of things quickly, and are a key aspect of a lot of programming and automation.
 We are going to go through two loops in python - 'for' and 'while', as well as briefly talk about recursion.
 
 Read the stuff in the main entry point first.
