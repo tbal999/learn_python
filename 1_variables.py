@@ -1,5 +1,6 @@
 """
 Variables are values that can change which you can assign and control.
+They are very useful and a key aspect of programming - let's learn them.
 Here are four:
 """
 
