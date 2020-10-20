@@ -34,7 +34,8 @@ if __name__ == "__main__":
     print(alist)  #This will print out ['one and a two and a three']
     #You can google more methods that lists can use
     # Or try this site: https://docs.python.org/3/tutorial/datastructures.html
-    # We'll learn what 'method' means soon.
+    # You learned in the previous section that methods are bolt-on functions for a class.
+    # So that means that a list is an object, created by a list class. And the list object has the methods 'pop' and 'append' in it, alongside many others.
 
 
     """
