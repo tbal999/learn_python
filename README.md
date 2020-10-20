@@ -1,7 +1,9 @@
 # teaching_python
 This is my attempt at teaching (very hands-on) the basics of programming through python.
 
-You can play around with the results, and build upon each level quickly - at least that's the plan!
+I find a lot of tutorials drag on basic concepts, maybe for good reason, but why not just make it concise?
+
+You can play around with the results of each script, and build upon each level quickly - at least that's the plan!
 
 Contents:
 # Variables
