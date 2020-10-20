@@ -44,6 +44,7 @@ if __name__ == "__main__":
 
     """
     Whilst python makes variable handling easy, it is good to recognise what types you are working with to ensure you don't make mistakes.
+    For example, a calculator that works by manipulating strings clearly wouldn't be good. After all, 2 plus 2 is not 22.
     """
 
     #Below we are printing all the variables from earlier.
