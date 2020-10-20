@@ -22,7 +22,7 @@ def addone():
     print(cat)   #This will print 'meow i am a cat... and this is the same cat!'   
     #This is because we have already declared the cat variable on row 7, then we added 'i am a cat...' on row 51 in the entry point, and THEN called this function.
 
-if __name__ == "__main__": #Standard 'entry point' method for python. 
+if __name__ == "__main__":
     """
     In python, you don't need to store the type of variable. It will automatically infer what type the variable is.
     Sometimes you may need to convert a variable to get the intended result you are looking for.
