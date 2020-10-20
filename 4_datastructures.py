@@ -32,7 +32,9 @@ if __name__ == "__main__":
     #Below we are accessing index 0 (the first item) in the list and adding to the string.
     alist[0] += " and a two and a three"
     print(alist)  #This will print out ['one and a two and a three']
-    #You can google more methods that lists can use. 
+    #You can google more methods that lists can use
+    # Or try this site: https://docs.python.org/3/tutorial/datastructures.html
+    # We'll learn what 'method' means soon.
 
 
     """
