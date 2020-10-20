@@ -31,7 +31,7 @@ def process(inn, out):
     columns = table.columns.values #Grab the columns of the table and place them in a list. 
     for index, i in enumerate(columns): #Iterate through the columns
         table[i] = table[i].str.replace(" ","") #For each column we want to iterate through the column and remove all whitespace.
-    table.to_csv(out ,header=True, index=False) #Afterwards we want to save the database as a csv file.
+    table.to_csv(out ,header=True, index=False) #Afterwards we want to save the dataframe as a csv file.
 
 if __name__ == "__main__": #Standard 'entry point' method for python. 
     if len(sys.argv) <= 1: #If the length of the system arguments is less than or equal to one...
