@@ -2,9 +2,10 @@
 loops are powerful. They let you iterate through lots of things quickly, and are a key aspect of a lot of programming and automation.
 We are going to go through two loops in python - 'for' and 'while', as well as briefly talk about recursion.
 
-Read the stuff in the main entry point first.
+Read the stuff in the main entry point first, or not?
 """
 
+#Recursive functions are functions that call themselves, usually in a controlled manner, to complete tasks where iteration is necessary.
 def recursion(thelist, index):
     print(thelist[index]) #Here we are printing the item at list[index]
     index += 1 #Then we add 1 to index
