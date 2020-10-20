@@ -64,5 +64,6 @@ def main():
 
     fibonacci(0, 1, 10, 7) #Calls the fibonacci function starting with the numbers 0 and 1, and will print 7 lines of 10 numbers each line.
 
-if __name__ == "__main__": #entry point
+if __name__ == "__main__": #By the way this is the standard method toward creating your 'entry point' for your program. 
     main()
+    # LEARN MORE ABOUT THIS HERE - https://www.geeksforgeeks.org/what-does-the-if-__name__-__main__-do/
