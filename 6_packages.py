@@ -9,7 +9,7 @@ Imagine building a car. But then you'd need to build the wheels,
 forge the steel for the hubs, the screws, the bolts, refine your own petrol, make the rubber for the tyres
 etc etc you get the point. Use libraries!!!!
 
-Below is an example of various packages being put to use togegether to fullfil a purpose that none of them probably could do alone.
+Below is an example of various packages being put to use together to fullfil a purpose that none of them probably could do alone.
 """
 
 # This little script will grab any csv file and remove all whitespace within it.
