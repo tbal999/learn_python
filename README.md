@@ -1,5 +1,5 @@
 # learn python
-This is my attempt at teaching (very hands-on) the basics of programming through python.
+Here I am teaching (very hands-on) the basics of programming using python.
 
 I find a lot of tutorials drag on basic concepts, maybe for good reason, but why not just make it concise?
 This is aimed at people who want to absorb stuff quickly and get stuck into something big.
