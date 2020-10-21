@@ -70,7 +70,7 @@ if __name__ == "__main__":
 
     Variables within functions are local. Variables outside functions (like the ones we have looked at so far) are global. 
     Local functions are only within the scope of that function.
-    Global functions are accessible anywhere.
+    Global functions are accessible anywhere - this can be a bad thing if you have a large program. KEEP TRACK OF YOUR GLOBAL VARIABLES!
 
     Demonstration...
     """
