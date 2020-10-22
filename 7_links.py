@@ -19,6 +19,8 @@ https://www.programiz.com/python-programming/examples/calculator
 2) Build an API in python - tonnes of guides (this website also has guides on other things to do in python as well):
 https://realpython.com/tutorials/api/
 
+What is an API i hear some of you ask? - https://www.youtube.com/watch?v=s7wmiS2mSXY
+
 3) Build a small simple web application in python using the flask package:
 https://medium.com/bhavaniravi/build-your-1st-python-web-app-with-flask-b039d11f101c
 
