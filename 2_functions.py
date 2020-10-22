@@ -80,7 +80,7 @@ def main():
     print(add5toboth(2, 3))
 
     # Calls the fibonacci function starting with the numbers 0 and 1, and will print 7 lines of 10 numbers each line.
-    fibonacci(0, 1, 7, 10, 10)
+    fibonacci(0, 1, 7, 10, 10) #Try changing it so it prints 3 lines of 5 numbers on each line.
 
 
 # By the way this is the standard method toward creating your 'entry point' for your program.
