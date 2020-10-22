@@ -16,20 +16,25 @@ Function with arguments and a return value.
 
 Demonstrations:
 """
+from copy import copy
 
-def bark1(): #No input, just prints something
+def bark1():  # No input, just prints something
     print("The hound barked!")
 
-def bark2(dog): #Takes in input 'dog' which is a string.
+
+def bark2(dog):  # Takes in input 'dog' which is a string.
     print(f'The {dog} barked!')
 
-def bark3(): #No input, and returns a string.
+
+def bark3():  # No input, and returns a string.
     return "The hound barked!"
 
 #Below are examples of multiple inputs and outputs
 
+
 def addTogether(a, b):
     return a+b
+
 
 def add5toboth(a, b):
     return a+5, b+5
@@ -38,26 +43,29 @@ def add5toboth(a, b):
 """
 Below is a recursive function that calculates the fibonacci sequence. 
 We'll get into recursion later but just want to show you the power of functions.
-This sequence requires four inputs
+This function requires five inputs
 The first two numbers in the sequence are 0 and 1. (the first and second number)
-It also takes in two more inputs, max and epoch.
+It also takes in these:
 
-prev = the first number
-now = the second number
-max = the maximum number of items that will be printed on one line.
 epoch = the maximum number of times we will start on a new line.
+max = the maximum number of items that will be printed on one line.
+reset = allows us to reset the variable max back to its original position (otherwise it won't work!)
 """
-def fibonacci(prev, now, max, epoch):
-    max -= 1                     #First deduct from the max counter
-    if max <= 0:                 #If max is less than or equal to zero
-        print(f'{now+prev},', end='\n') #Print the two numbers added together
-        max = 10                        #reset max to 10 so it iterates through it again.
-        epoch -= 1                      #decrease epoch by 1.
-    else:                        #If max is greater than 10 i.e still going through the numbers
-        print(f'{now+prev},', end='') #print out the numbers on the same line
-    if epoch <= 0:                     #If epoch is equal/less than 0 we want to quit from this recursion
+
+
+def fibonacci(prev, now, epoch, max, reset):
+    max -= 1  # First deduct from the max counter
+    if max <= 0:  # If max is less than or equal to zero
+        print(f'{now+prev},', end='\n')  # Print the two numbers added together
+        max = reset  # reset max to this so it iterates through it again.
+        epoch -= 1  # decrease epoch by 1.
+    else:  # If max is greater than 10 i.e still going through the numbers
+        print(f'{now+prev},', end='')  # print out the numbers on the same line
+    if epoch <= 0:  # If epoch is equal/less than 0 we want to quit from this recursion
         return
-    fibonacci(now, now+prev, max, epoch)    #Otherwise call the function again with new numbers.
+    # Otherwise call the function again with new numbers.
+    fibonacci(now, now+prev, epoch, max, reset)
+
 
 def main():
     bark1()
@@ -66,12 +74,16 @@ def main():
 
     print(bark3())
 
-    print(addTogether(5,5))
+    print(addTogether(5, 5))
 
-    print(add5toboth(2,3)) #This will result in a tuple which is a type of data structure
+    # This will result in a tuple which is a type of data structure
+    print(add5toboth(2, 3))
 
-    fibonacci(0, 1, 10, 7) #Calls the fibonacci function starting with the numbers 0 and 1, and will print 7 lines of 10 numbers each line.
+    # Calls the fibonacci function starting with the numbers 0 and 1, and will print 7 lines of 10 numbers each line.
+    fibonacci(0, 1, 7, 10, 10)
 
-if __name__ == "__main__": #By the way this is the standard method toward creating your 'entry point' for your program. 
+
+# By the way this is the standard method toward creating your 'entry point' for your program.
+if __name__ == "__main__":
     main()
     # LEARN MORE ABOUT THIS HERE - https://www.geeksforgeeks.org/what-does-the-if-__name__-__main__-do/
