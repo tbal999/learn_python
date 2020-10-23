@@ -1,7 +1,7 @@
 # learn python
 Here I am teaching (very hands-on) the basics of programming using python.
 
-I find a lot of tutorials drag on basic concepts, maybe for good reason, but why not just make it concise?
+I find a lot of tutorials drag on when it comes to basic concepts, maybe for good reason, but why not just make it concise?
 This is aimed at people who want to absorb stuff quickly and get stuck into something big.
 I have created various scripts which teach as you read them. The idea is you can download and run the scripts, but also
 you can read the comments and understand how each script works.
