@@ -14,6 +14,8 @@ Learn what variables are, what local and global variables are.
 
 # Functions
 Learn what functions are, and how to use them with variables
+You'll also see conditionals in this section - I have made the bold assumption that you 
+know what conditionals are.
 
 # Classes & Objects
 Learn what classes are, and how they encapsulate both functions and variables
