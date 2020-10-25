@@ -87,3 +87,24 @@ def main():
 if __name__ == "__main__":
     main()
     # LEARN MORE ABOUT THIS HERE - https://www.geeksforgeeks.org/what-does-the-if-__name__-__main__-do/
+    
+    
+    """
+    Now a quick rundown on conditionals.
+    In python you have 'if' - which you saw being used above in the fibonacci function.
+    This basically checks whether a certain condition is 'true'
+    """
+    
+    thisvar = "hello" #Here is a variable with the string 'hello'
+    if thisvar == "hello": #if this variable is the string 'hello'
+        print("This variable is the string 'hello'") #Print this
+    else: #Otherwise
+        print("This variable is not the string 'hello'") #Print this instead
+        
+    anothervar = "goodbye" #Here's another variable with a string 'goodbye'. Guess what will be printed!
+    if anothervar == "hello":
+        print("This variable is the string 'hello'")
+    else:
+        print("This variable is not the string 'hello'")
+                
+         
