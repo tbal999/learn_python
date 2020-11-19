@@ -31,3 +31,5 @@ Standing on the shoulders of giants.
 
 # Challenges
 I will add these over time.
+
+Once you've gone through this - maybe go to https://github.com/trekhleb/learn-python to get to the granular details!
