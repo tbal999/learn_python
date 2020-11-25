@@ -84,6 +84,7 @@ def main():
 
 
 # By the way this is the standard method toward creating your 'entry point' for your program.
+# You don't have to do this, but it's good practise and will help you if you want to explore other languages. Code must start somewhere.
 if __name__ == "__main__":
     main()
     # LEARN MORE ABOUT THIS HERE - https://www.geeksforgeeks.org/what-does-the-if-__name__-__main__-do/
