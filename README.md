@@ -20,14 +20,14 @@ You'll also see conditionals in this section.
 Learn what classes are, and how they encapsulate both functions and variables
 
 # Data structures
-How do you store things and work with things easily? Data structures!
+How do you store things and work with things easily? Data structures! In this section we learn about Dictionaries and Lists.
 
 # Loops & Recursion
-Sometimes you want to do the same thing multiple times. Or a different thing every single time. Loops!
+Sometimes you want to do the same thing multiple times. Or a different thing every single time.
 
 # Packages
-The true magic of python (and many other languages) is packages! 
-Standing on the shoulders of giants.
+The true magic of python (and many other languages) is packages.
+Standing on the shoulders of giants, you can develop sophisticated processes using libraries/packages other people have built.
 
 # Challenges
 I will add these over time.
