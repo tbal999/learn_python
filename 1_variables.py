@@ -31,7 +31,7 @@ if __name__ == "__main__":
     In python, you don't need to store the type of variable. It will automatically infer what type the variable is.
     Sometimes you may need to convert a variable to get the intended result you are looking for.
     INDENTATON is very important in python as well.
-    Notice how all the text / code after the colon (on row 25) is indented by one tab. 
+    Notice how all the text / code after the colon (on row 29) is indented by one tab. 
     If it wasn't, it wouldn't work!
     Here's more info about python indentation - https://www.w3schools.com/python/gloss_python_indentation.asp
     w3schools generally has a loooot of useful info on python, so a very good place to learn.
@@ -79,5 +79,5 @@ if __name__ == "__main__":
     Demonstration...
     """
 
-    addone() #Here we are calling the function earlier (on row 12), go back and read what i wrote in it.
+    addone() #Here we are calling the function earlier (on row 17), go back and read what i wrote in it.
     #In this function there is a local 'dog' variable but also the global 'cat' variable.
