@@ -45,11 +45,17 @@ Below is a recursive function that calculates the fibonacci sequence.
 We'll get into recursion later but just want to show you the power of functions.
 This function requires five inputs
 The first two numbers in the sequence are 0 and 1. (the first and second number)
-It also takes in these:
 
-epoch = the maximum number of times we will start on a new line.
-max = the maximum number of items that will be printed on one line.
-reset = allows us to reset the variable max back to its original position (otherwise it won't work!)
+'prev' = the first number
+'now' = the second number
+
+so you can start at any part of the sequence if you want to.
+The first and second numbers of the sequence usually are 0 and then 1.
+It also takes in these variables:
+
+'epoch' = the maximum number of times we will print on a new line.
+'max' = the maximum number of items that will be printed on one line.
+'reset' = allows us to reset the variable max back to its original position (otherwise it won't work!)
 """
 
 
