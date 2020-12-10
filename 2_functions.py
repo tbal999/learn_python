@@ -14,10 +14,16 @@ Function with no arguments and a return value.
 Function with arguments and no return value.
 Function with arguments and a return value.
 
+There are two steps to using a function.
+First you must defind the function, then you need to call it.
+
 Demonstrations:
 """
 from copy import copy
 
+"""
+Here we are defining functions. You need to build/define them before you can use them.
+"""
 def bark1():  # No input, just prints something
     print("The hound barked!")
 
@@ -72,7 +78,9 @@ def fibonacci(prev, now, epoch, max, reset):
     # Otherwise call the function again with new numbers.
     fibonacci(now, now+prev, epoch, max, reset)
 
-
+"""
+This function is where we are calling the other functions. You can see the other functions inside it.
+"""
 def main():
     bark1()
 
@@ -92,7 +100,7 @@ def main():
 # By the way this is the standard method toward creating your 'entry point' for your program.
 # You don't have to do this, but it's good practise and will help you if you want to explore other languages. Code must start somewhere.
 if __name__ == "__main__":
-    main()
+    main() #Here we are calling the 'main' function. This means that this function will run.
     # LEARN MORE ABOUT THIS HERE - https://www.geeksforgeeks.org/what-does-the-if-__name__-__main__-do/
     
     
