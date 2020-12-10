@@ -26,6 +26,7 @@ if __name__ == "__main__":
 
     alist.pop(0) #This will remove the first item from a list. (index 0 in a list is the first item) and also return it to you.
     #if you want to delete an item but don't need it - just do: del alist[0]
+    #You can also delete specific items in a list via: alist.remove("ITEM")
     print(alist) #This will print out ['one']
 
     #You can adjust data in a list.
