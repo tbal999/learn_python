@@ -15,7 +15,7 @@ Function with arguments and no return value.
 Function with arguments and a return value.
 
 There are two steps to using a function.
-First you must defind the function, then you need to call it.
+First you must define the function, then you need to call it.
 
 Demonstrations:
 """
