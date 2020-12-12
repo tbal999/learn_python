@@ -1,7 +1,7 @@
 """
 Before we get started:
 #This is a comment - this is not read by the interpreter and is literally there for you to read.
-This is not a comment, this will be a bit of code.
+This is not a comment, this will be a bit of code. It's a comment here because it's between two triple quotes (which is how you do long comments)
 
 Variables are values that can change which you can assign and control.
 They are very useful and a key aspect of programming - let's learn them.
