@@ -30,6 +30,7 @@ The true magic of python (and many other languages) is packages.
 Standing on the shoulders of giants, you can develop sophisticated processes using libraries/packages other people have built.
 
 # Challenges
-I will add these over time.
+I will add these over time. They're bonus challenges if you're getting bored of the content and think you can do more.
+The core challenges, if you are on the training course, will be sent to you via email from me.
 
 Once you've gone through this - maybe go to https://github.com/trekhleb/learn-python to get to the granular details!
