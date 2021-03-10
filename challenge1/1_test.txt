@@ -1,0 +1,38 @@
+"""
+This short script is the beginning of a rpg game, 
+when you run it, it won't work properly.
+
+There are two issues with the below code. Fix it!
+
+Hints:
+    There are two issues below. One of them is to do with 
+    type casting. The other is to do with incorrect naming.
+"""
+
+def interact():
+    global name
+    global itemm
+    print(f"You pick up the {itemm}, it looks pretty good!")
+    
+print("You arrive at the local tavern, ready for a pint or two")
+print("The landlord greets you at the door...")
+name = input("'Welcome! What is your name?' type here: ")
+
+print(f"'Come inside {name}, I haven't seen any new faces here for a long time.'")
+item = input("'Take a seat, what drink would you like?' type drink here: ")
+
+interact()
+
+def checkage():
+    global age
+    global item
+    if age >= 18:
+        print(f"Here's your {item}! Enjoy.")
+    else:
+        print("Sorry mate, you're not old enough!")
+
+age = input("'I just want to make sure you're above the UK legal age, how old are you?' type here: ")
+
+checkage()
+
+input("END. If you've reached here, you fixed it. Well done.")

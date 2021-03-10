@@ -1,0 +1,51 @@
+"""
+This test will test your understanding of loops.
+
+In old ASCII sidescrolling video games, objects could be drawn
+on the map using loops.
+Below you will draw out two objects.
+
+Challenge 1:
+    Print this triangle in console using a loop:
+        
+    #
+    ##
+    ###
+    ####
+    #####
+    
+Challenge 2:
+    Print this triangle in console using a loop:
+        
+        #
+       ###
+      #####
+     #######
+    #########
+        
+Use anything at your disposal! 
+Preferably though, solve this using loops.
+"""
+
+#Write code here...
+
+
+
+
+"""
+Output should be:
+    
+#
+##
+###
+####
+#####
+    #
+   ###
+  #####
+ #######
+#########
+    
+"""
+        
+        

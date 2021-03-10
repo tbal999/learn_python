@@ -1,0 +1,102 @@
+"""
+This test will verify your understanding of some basic data structures (lists and dictionaries)
+as well as previous taught content.
+
+Section 1:
+You need to create a simple to-do class that lets you:
+    1) Add a task to the end of list
+    2) Remove a task from list
+    3) Print out all the tasks you have added so far.
+    
+    
+Section 2:
+    What if a task has many subtasks in it? I.E
+    'Morning walk: have a coffee, go to local co-op, walk to park'
+    
+    We could call this a 'multitask'.
+    It's name would be 'Morning walk'
+    and it has three tasks within it:
+        "have a coffee"
+        "go to local co-op"
+        "walk to park"
+        
+    Add this extra functionality:
+    1) Add a multitask
+    2) Remove a multitask
+    3) Add a task to the end of a multitask
+    4) remove a task from a multitask
+    5) print out one multitask's tasks (a list of all the tasks within one multitask)
+    6) print out all multitasks (name of the multitasks only)
+    
+"""
+
+class todo:
+    tasklist = [] #This is a 1D list and will be used for the task section.
+    multitasklist = {} #This is a 1D dictionary and will be used for the multitask section.
+    """
+    Hint - the dictionary should look something like this {"Multitask", [List of tasks]}.
+    i.e:
+    
+    {'Multitask 1': ['Task1','task2','task3'],
+     'Multitask 2': ['Task1','task2','task3']}
+    
+    so in this example, to access multitask1 it would be "multitasklist['Multitask 1']".
+    and to print out Task1 in multitask1 it would be like "multitasklist['Multitask 1']['Task1']".
+    """
+    
+    def add(self, task): #Add a task to the tasklist 
+
+    def remove(self, task): #Remove a task from the tasklist
+
+    def printall(self): #Print all the tasks in the tasklist
+
+    def addmulti(self, name, multitask): #Add a multitask to the multitasklist. 'name' is the name of the multitask. 'multitask' is the list of tasks.
+
+    def removemulti(self, name): #Remove a multitask from the multitasklist. 'name' is the name of the multitask.
+        
+    def addmultitask(self, name, task): #Add an extra task to a multitask. 'name' is the name of the multitask. 'task' is the task you are removing.
+        
+    def removemultitask(self, name, task): #Remove a task from a multitask
+    
+    def printmultiall(self): #Print all multitasks
+
+    def printmultitask(self, name): #Print all tasks in one multitask
+  
+#Section 1:
+
+new = todo()
+new.add("Do the dishes...")
+new.add("Go to park")
+new.add("Walk the dog")
+new.printall()
+new.remove("Go to park")
+new.printall()
+
+"""
+The code above should print out:
+
+['Do the dishes...', 'Go to park', 'Walk the dog']
+['Do the dishes...', 'Walk the dog']
+
+"""
+
+#Section 2:
+    
+multi = todo()
+multi.addmulti("Morning walk", ["have coffee", "go to coop", "walk in park"])
+multi.printmultiall()
+multi.printmultitask("Morning walk")
+multi.removemultitask("Morning walk", "go to coop")
+multi.printmultitask("Morning walk")
+multi.addmultitask("Morning walk", "eat bacon & eggs")
+multi.printmultitask("Morning walk")
+
+"""
+The code above should print out:
+    
+{'Morning walk': ['have coffee', 'go to coop', 'walk in park']}
+['have coffee', 'go to coop', 'walk in park']
+['have coffee', 'walk in park']
+['have coffee', 'walk in park', 'eat bacon & eggs']
+
+"""

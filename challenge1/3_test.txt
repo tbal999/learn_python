@@ -1,0 +1,60 @@
+"""
+This test will verify your understanding of classes, as well
+as include previous concepts you have learned in my previous training materials - functions, variables and conditionals.
+
+You must build a 'calculator' class that lets you create an object that lets you:
+    a) add to a number
+    b) subtract from a number
+    c) multiply a number
+    d) divide a number
+    e) confirm whether that number is even or not.
+    f) confirm whether that number is negative or not
+    g) has a 'view' function that lets you view the number i.e print it
+"""
+
+class Calculator: #This is the calculator class.
+    """
+    To help you out, I have already added the methods below (class functions). 
+    From here you can build it.
+    """
+    def __init__(self, number): #Initialises the class with a number
+        self.number = number #This is a variable created and stored within the object.
+        #To access this variable going forwards, you must type 'self.number'
+    
+    def add(self, x): #add the number 'x' to the number.
+        
+    def subtract(self, x): #deduct the number 'x' to the number.
+        
+    def multiply(self, x): #multiply the number by 'x'.
+        
+    def divide(self, x): #divide the number by 'x'.
+        
+    def isEven(self): #is the number even?
+        
+    def isNegative(self): #is the number < 0?
+        
+    def view(self): #print out the number.
+
+"""
+Output in console should be:
+    
+    20
+    17
+    False
+    False
+    14
+"""
+
+new = Calculator(10)
+new.add(10)
+new.view()
+new.subtract(3)
+new.view()
+new.isEven()
+new.isNegative()
+new.subtract(3)
+new.view()
+
+################# Try creating a new Calculator object below and test all the methods on it.
+
+

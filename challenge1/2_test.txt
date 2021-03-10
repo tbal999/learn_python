@@ -1,0 +1,43 @@
+# -*- coding: utf-8 -*-
+"""
+Test 2 - Functions & Conditionals
+
+For this test there is an easier function, and a more challenging function.
+The challenging one is optional.
+"""
+
+#BEGIN
+def isEven(number):
+    """
+    Make this function confirm whether or not the 5 numbers 
+    below are even or not. Should print "True" for even, "False" for odd.
+    
+    Hint:
+        The modulus operator (%) confirms what value is left behind when
+        a number is divided by another number.
+        for example: 5 % 2 = 1.
+    """
+    
+isEven(1) #False
+isEven(2) #True
+isEven(3) #False
+isEven(4) #True
+isEven(5) #False
+
+#CHALLENGE 
+def guessGame(number):
+    """
+    Create a guessing game, where somebody has to repeatedly input a number
+    between 1 and 10 until they get the right answer.
+    
+    If the intial number is below 1 or over 10 - it should say:
+        "Number must be between 1 and 10!"
+        
+    Otherwise, it should begin the game. 
+    This can be done using a recursive function only, no loops are needed.
+    """
+
+guessGame(11) # "Number must be between 1 and 10!"
+guessGame(5) # Game starts.
+
+

@@ -1,0 +1,35 @@
+"""
+If you successfully complete all tests, you have demonstrated a basic understanding of the language.
+
+From here, if you want to keep doing data analysis and automation with python, I recommend learning more about the Pandas package online.
+Here's the API ref site for pandas: https://pandas.pydata.org/docs/reference/index.html
+There will be specific pandas python training which I am designing at the moment.
+
+Final challenge - Packages.
+
+THE CHALLENGE:
+Using everything you have learned so far, create a python script that does the below:
+    
+    1) Copies the 3 most recently modified files in one folder and places a copy of them
+        in another folder.
+    
+    2) You can use any source and destination filepath. And there must be more than three files in the source folder. They can be any file type.
+    
+You can use everything you have learned (as well as google ofc!) to solve this one.
+There are many many different ways to solve this (this is the pythonic way).
+Some are more efficient than others, but at this level who cares.
+I recommend you use packages!
+
+
+Example output...
+
+Most recent files: 
+file1.file
+file2.file
+file3.file
+copied from sourcefolder 
+copied to destinationfolder
+"""
+
+
+    
