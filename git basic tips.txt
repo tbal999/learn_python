@@ -1,0 +1,59 @@
+"""
+
+Using Git for entry level source control.
+
+-Tom Balcombe
+
+"""
+
+###Prerequisites:
+	1) Install git (https://git-scm.com/download/win)
+		- you will need to turn off VPN
+	2) open up 'Git Bash' - that's what you will be using.
+	
+	
+###Guide on how to manage changes in scripts:
+	1) run 'git init'
+		- this will initialize a git 'repo' for you. Consider it a basket.
+	2) locate the file you want to edit, for example 'script.py'.
+	3) run 'git add script.py' (you'll need to go to the directory that the file is)
+		- this is a bit like adding the file to the basket. 
+	4) run 'git ls-files'
+		- this will show the file you are current editing/doing work on.
+	5) edit the file to your hearts content.
+	6) when done, run 'git diff'
+		- this will print out a list of all the adjustments/changes you have made to the file.
+	7) now run 'git diff > changes.txt'
+		- this will create a file that lists all the changes you have made. amazing!
+	8) now run 'git rm --cached script.py -f'
+		- this will remove the file from your basket. 
+
+Now you know how to keep track of any changes you make to a file 
+for fellow colleagues.
+
+###How to read a 'diff':
+This is a diff file:
+"""
+--- a/LOCALDEV/PYTHON/ready/odigo/script.py
++++ b/LOCALDEV/PYTHON/ready/odigo/script.py
+@@ -5,4 +5,4 @@ We are going to edit it using git to track edits.
+ """
+ 
+ print("Hello")
+-print("1" + "1") #I want this to say 2 but it just says 11! Why?
++print(1+1) #You used strings. I have changed them to ints.
+"""
+
+	1) The --- and +++ are the old file and new file.
+		- in this example we are editing the same file. So it appears twice.
+	2) The @@ is location information for the change.
+		- in this example, we are starting at row 5 for old file, and row 5 for new file (the first number).
+		- the amendments start 4 lines down from row 5 for both files (the second number)
+		- the edits start with a '-' or a '+'. '-' indicates that was what the row originally looked like
+		  and '+' indicates this is what the row looks like now.
+		  
+    3) That's it! There can sometimes be a lot of @@'s in a diff file - depending on how many changes you make.
+	   You can edit code in a file, create a diff file & then send it to a senior engineer/developer to audit your changes.
+	   
+	You can use diff on pretty much any code.
+
