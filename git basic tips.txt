@@ -7,7 +7,7 @@ Using Git for entry level source control.
 """
 
 ###Prerequisites:
-	1) Install git (https://git-scm.com/download/win)
+	1) Install git (https://git-scm.com/download/win) (this is windows example)
 		- you will need to turn off VPN
 	2) open up 'Git Bash' - that's what you will be using.
 	
