@@ -1,6 +1,7 @@
 """
-
-Using Git for entry level source control.
+QUICK GUIDE
+for
+Using Git Diff.
 
 -Tom Balcombe
 
