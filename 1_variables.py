@@ -4,6 +4,10 @@ Before we get started:
 This is not a comment, this will be a bit of code. It's a comment here because it's between two triple quotes (which is how you do long comments)
 
 Variables are values that can change which you can assign and control.
+You can make variables and change them.
+They will have a name, a type and data. The data is stored somewhere in the computer memory. 
+Python handles the memory stuff for you which is nice.
+
 They are very useful and a key aspect of programming - let's learn them.
 Here are four:
 """
