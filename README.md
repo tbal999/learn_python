@@ -1,6 +1,8 @@
 # learn python
 Here I am teaching (very hands-on) the basics of programming using python.
 
+This is designed for data analysts who want to apply Python to their data crunching. Once you've got the basics down, you can use Pandas [a powerful data analysis library]. With a combination of Pandas and SQL drivers / query in Python, you can add a tonne of extra ability to your toolset and massively overshoot other data analysts who don't have Python knowledge. This means you get more £££/$$$ and this is why I created this course.
+
 I find a lot of tutorials drag on when it comes to basic concepts, maybe for good reason, but why not just make it concise?
 This is aimed at people who want to absorb stuff quickly and get stuck into something big.
 I have created various scripts which teach as you read them. The idea is you can download and run the scripts, but also
