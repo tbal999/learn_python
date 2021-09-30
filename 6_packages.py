@@ -9,6 +9,12 @@ Imagine building a car. But then you'd need to build the wheels,
 forge the steel for the hubs, the screws, the bolts, refine your own petrol, make the rubber for the tyres
 etc etc you get the point. Use libraries!!!!
 
+The thing you _must learn_ to use with packages is their documentation.
+The documentation for pandas for example is very detailed and easy to use.
+I.E https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_csv.html
+[documentation in pandas on how to convert a Dataframe to a CSV file]
+
+
 Below is an example of various packages being put to use together to fullfil a purpose that none of them probably could do alone.
 """
 
