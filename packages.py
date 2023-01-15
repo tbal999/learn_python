@@ -35,7 +35,7 @@ import os.path #package that enables us to verify whether a file exists.
 def process(inn, out):
     table = pd.read_csv(inn) #Read the csv file 'inn' and place it in a pandas dataframe i've labelled as 'table'.
     columns = table.columns.values #Grab the column names of the table and place them in a list. 
-    for index, i in enumerate(columns): #Iterate through the column names list
+    for _, i in enumerate(columns): #Iterate through the column names list
         table[i] = table[i].str.replace(" ","") #For each column we want to iterate through the column and remove all whitespace.
     table.to_csv(out ,header=True, index=False) #Afterwards we want to save the dataframe as a csv file.
 

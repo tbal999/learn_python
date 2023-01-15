@@ -1,4 +1,6 @@
 """
+1
+
 Functions are the bread and butter (imo) of coding. They allow you to package a process into one easy to read part.
 Whenever you are coding and you notice yourelf repeating a piece of code... that code can become a function.
 It's good practise to analyse your code whilst you are developing, always trying to break things up into functions as you go.

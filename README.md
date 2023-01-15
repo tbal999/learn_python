@@ -31,6 +31,10 @@ Sometimes you want to do the same thing multiple times. Or a different thing eve
 The true magic of python (and many other languages) is packages.
 Standing on the shoulders of giants, you can develop sophisticated processes using libraries/packages other people have built.
 
+# Testing
+Testing is important - it lets you ensure the behaviour of your code matches what you intend it to be.
+It's good to write tests.
+
 # Challenges
 I will add these over time. They're bonus challenges if you're getting bored of the content and think you can do more.
 The core challenges, if you are on the training course, will be sent to you via email from me.
